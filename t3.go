@@ -15,6 +15,12 @@ func SetT3(val int) int {
 	return T3
 }
 
+func SetT3P100() int {
+	fmt.Println("T3 SetT3(): t3 => %d")
+	T3 += 100
+	return T3
+}
+
 func GetT3() int {
 	fmt.Println("T3 GetT3(): t3 => %d", T3)
 	return T3
